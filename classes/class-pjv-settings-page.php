@@ -12,7 +12,7 @@ class PJVSettingsPage
 	protected $sections = array();
 	protected $description;
 
-	function __construct($id, $title, $description = '', $parent_slug = 'tools.php', $capability = 'manage_options')
+	function __construct($id, $title, $description = '', $parent_slug = 'options-general.php', $capability = 'manage_options')
 	{
 		$this->parent_slug	= $parent_slug;
 		$this->title		= $title;
