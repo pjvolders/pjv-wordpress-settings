@@ -121,6 +121,19 @@ class PJVSettingsSection
 		}
 		return false;
 	}
+	
+	/*
+	* Change the value of a setting in this section
+	*
+	* @param string $id Name of the setting
+	* @param $new_value New value of the setting
+	*/
+	function set_setting($id, $new_value) {
+		if ($this->get_setting($id)) {
+			$this->settings[$id] = $new_value;
+			update_option( $this->id, $this->settings );
+		}
+	}
 
 }
 
