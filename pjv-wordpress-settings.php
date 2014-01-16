@@ -2,7 +2,7 @@
 /*
 Plugin Name: Wordpress settings framework
 Description: 
-Version: 1.0
+Version: 1.1
 Author: PJVolders
 */
 
