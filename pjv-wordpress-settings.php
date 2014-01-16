@@ -16,6 +16,7 @@ require_once 'classes/class-pjv-settings-media.php';
 require_once 'classes/class-pjv-settings-dropdown.php';
 require_once 'classes/class-pjv-settings-radio.php';
 require_once 'classes/class-pjv-settings-textarea.php';
+require_once 'classes/class-pjv-settings-info.php';
 
 // custom action that can be used by plugin writers
 add_action( 'init', 'load_pjv_settings_modules' );

@@ -90,6 +90,10 @@ class PJVSettingsSection
 				$new_field = new PJVSettingsTextarea($this->page, $this->id, $id, $title, $value, $description);
 				break;
 				
+			case 'info':
+				$new_field = new PJVSettingsInfo($this->page, $this->id, $id, $title, $value, $description);
+				break;
+				
 			default:
 				$new_field = new PJVSettingsTextfield($this->page, $this->id, $id, $title, $value, $description);
 				break;
